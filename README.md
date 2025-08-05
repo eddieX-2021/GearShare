@@ -103,9 +103,9 @@ GearShare is a web platform that enables users to share, borrow, and manage item
 
 ---
 
-## Contributing
+## Authur
+A-27
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
