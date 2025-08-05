@@ -1,6 +1,4 @@
-
-
-## GearShare
+# GearShare
 
 GearShare is a web platform that enables users to share, borrow, and manage items within a community. Whether you want to lend your gear, borrow something for a project, or manage collections, GearShare provides a secure and user-friendly environment for item sharing.
 
@@ -50,3 +48,76 @@ GearShare is a web platform that enables users to share, borrow, and manage item
    ```bash
    git clone https://github.com/your-username/GearShare.git
    cd GearShare
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Configure environment variables:  
+   Create a `.env` file and set your AWS credentials and other secrets.
+
+4. Set up the database:
+   ```bash
+   python manage.py migrate
+   ```
+
+5. Create a superuser (admin):
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+6. Run the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+---
+
+## Usage
+
+1. **Add Items:**  
+   List items with images, descriptions, and categories.
+
+2. **Browse & Search:**  
+   Find items by category, keyword, or collection.
+
+3. **Borrow Items:**  
+   Submit a borrow request and accept the borrower agreement.
+
+4. **Return Items:**  
+   Mark items as returned, report condition, and leave notes.
+
+5. **Manage Collections:**  
+   Create, edit, and share collections (public or private).
+
+---
+
+## Technologies
+
+- **Backend:** Django, Django REST Framework  
+- **Frontend:** Bootstrap, HTML/CSS, JavaScript  
+- **Storage:** AWS S3 (via django-storages)  
+- **Database:** PostgreSQL or SQLite
+
+---
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Acknowledgements
+
+- Django  
+- Bootstrap  
+- AWS S3  
+- All contributors
